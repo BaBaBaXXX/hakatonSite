@@ -1,4 +1,4 @@
-package hakatonSite.demo;
+package hakatonWarpoint.site.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
