@@ -1,0 +1,29 @@
+body{
+	background: #1B1B1B;
+	max-width: 80%;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+header{
+	margin-top: 1%;
+	display: flex;
+}
+a{
+	text-decoration: none;
+	user-select: none;
+	color: inherit;
+}
+.close_text:hover{
+	color: #FFFFFF50;
+}
+.content{
+	margin-top: 10%;
+	display: flex;
+}
+.img{
+	width: 513px;
+	height: 685px;
+}
+.text{
+	margin-left: 20px;
+}

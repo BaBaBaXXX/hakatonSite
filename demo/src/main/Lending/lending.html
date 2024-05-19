@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>			
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="site_css.css">
+	<title>WARPOINT</title>
+	<script src="site_js.js"></script>
+</head>
+<body>
+	<div class="header">
+		<header>
+			<img src="img/warpoint_logo.png" class="warpoint_img">
+			<form action="#" target="_blank">
+				<button type="button" class="button_play">Играть</button>
+			</form>
+			<a href="#" class="delete_img_a">
+				<img src="img/delete_img.png" class="delete_img">
+			</a>
+
+			<a href="#" class="personalarea">
+				<h1 class="personalarea_text">Личный кабинет</h1>
+			</a>
+		</header>
+	</div>
+	<div class="catalog">
+		<h1 class="catalog_text">КАТАЛОГ</h1>
+	</div>
+	<div class="search">
+		<form action="" method="get">
+  			<input name="s" placeholder="Поиск" type="search" class="search_input">
+  			<button type="submit" class="search_button">Поиск</button>
+		</form>
+	</div>
+	<div class="content">
+		<div id="sort" class="sort">
+			<label class="form">
+				<input type="checkbox" onclick="filterSelection('t-shirt')" class="checkbox">Футболки
+			</label>
+			<label class="form">
+				<input type="checkbox" onclick="filterSelection('throusends')" class="checkbox">Шорты
+			</label>
+			<label class="form">
+				<input type="checkbox" onclick="filterSelection('cap')" class="checkbox">Кепки
+			</label>
+			<label class="form">
+				<input type="checkbox" onclick="filterSelection('hat')" class="checkbox">Шапки
+			</label>
+			<label class="form">
+				<input type="checkbox" onclick="filterSelection('headphones')" class="checkbox">Наушники
+			</label>
+		</div>
+		<div class="assortment">
+			<div class="line">
+				<div class="product_main t-shirt">
+						<div class="product">
+						<a href="product1.html"> 
+							<img class="img_assortiment" src="img/img1_t-shirt.jpg">
+							<h2 class="tittle_text">Футболка</h2>
+						</a>
+						</div>
+						<div class="buy">
+							<h2 class="price_text">1000</h2>
+							<button type="button" class="basket">В корзину</button>
+						</div>
+					
+				</div>
+				<div class="product_main throusends">
+					<div class="product">
+						<a href="product2.html">
+							<img class="img_assortiment" src="img/img2_trousers.jpg">
+							<h2 class="tittle_text">Штаны</h2>	
+						</a>
+					</div>
+						<div class="buy">
+							<h2 class="price_text">800</h2>
+							<button type="button" class="basket">В корзину</button>
+						</div>
+					</div>
+				
+				<div class="product_main cap">
+					<div class="product">
+					<a href="product3.html">
+						<img class="img_assortiment" src="img/img3_cap.jpg">
+						<h2 class="tittle_text">Кепка</h2>
+					</a>
+					</div>
+					<div class="buy">
+						<h2 class="price_text">500</h2>
+						<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+			</div>
+			<div class="line">
+				<div class="product_main hat">
+					<div class="product">
+					<a href="product4.html">
+							<img class="img_assortiment" src="img/img4_hat.jpg">
+							<h2 class="tittle_text">Шапка</h2>
+						</a>
+						</div>
+						<div class="buy">
+							<h2 class="price_text">350</h2>
+							<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+				<div class="product_main cap">
+					<div class="product">
+						<a href="product5.html">
+							<img class="img_assortiment" src="img/img3_cap.jpg">
+							<h2 class="tittle_text">Кепка</h2>
+						</a>
+					</div>
+					<div class="buy">
+						<h2 class="price_text">400</h2>
+						<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+				<div class="product_main t-shirt">
+					<div class="product">
+					<a href="product6.html">
+						<img class="img_assortiment" src="img/img1_t-shirt.jpg">
+						<h2 class="tittle_text">Футболка</h2>
+					</a>
+					</div>
+						<div class="buy"> 
+							<h2 class="price_text">800</h2>
+							<button type="button" class="basket">В корзину</button>
+						</div>
+					</div>
+				</div>
+				<div class="line">
+				<div class="product_main headphones">
+					<div class="product">
+					<a href="product7.html">
+						<img class="img_assortiment" src="img/img5_headphones.jpg">
+						<h2 class="tittle_text">Наушники</h2>
+					</a>
+					</div>
+					<div class="buy">
+						<h2 class="price_text">3000</h2>
+						<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+				<div class="product_main t-shirt">
+					<div class="product">
+					<a href="product8.html">
+						<img class="img_assortiment" src="img/img1_t-shirt.jpg">
+						<h2 class="tittle_text">Футболка</h2>
+					</a>
+					</div>
+					<div class="buy">
+						<h2 class="price_text">1800</h2>
+						<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+				<div class="product_main hat">
+					<div class="product">
+					<a href="product9.html">
+						<img class="img_assortiment" src="img/img4_hat.jpg">
+						<h2 class="tittle_text">Шапка</h2>
+					</a>
+					</div>
+					<div class="buy">
+						<h2 class="price_text">1500</h2>
+						<button type="button" class="basket">В корзину</button>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

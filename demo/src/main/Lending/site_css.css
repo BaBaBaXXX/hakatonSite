@@ -1,0 +1,157 @@
+body{
+	background: #1B1B1B;
+	max-width: 80%;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+header{
+	margin-top: 1%;
+	display: flex;
+
+
+
+}
+.warpoint_img{
+	width: 200px;
+	height: 30px;
+	margin-top: 15px;
+
+
+}
+.delete_img{
+	width: 60px;
+	height: 60px;
+
+}
+.delete_img_a{
+	margin-left:50%;
+}
+a{
+	text-decoration: none;
+	user-select: none;
+	color: inherit;
+
+}
+.personalarea{
+
+}
+.button_play{
+	margin-top: 5%;
+	padding: 10px 40px;
+	outline: none;
+	border:none;
+
+	border-radius: 25px;
+	background: rgba(255, 0, 0, 1);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	box-shadow: 0px 5px 10px #000;
+	font-size: 20px;
+	font-family: 'Arial';
+}
+.personalarea_text{
+	text-transform: uppercase;
+	height: 30px;
+	margin-top:3px;
+	font-family: 'Arial';
+	background: #3628D8;
+	text-align: center;
+	padding: 15px;
+	color:#FFFFFF ;
+	margin-left: 50px;
+
+
+}
+.personalarea_text:hover{
+	background: rgba(54, 40, 216, 0.5);
+}
+.search{
+
+	margin-bottom: 10px;
+}
+.search_input{
+	padding: 5px 3px;
+}
+.search_button{
+	padding: 5px 3px;
+	width: 70px;
+}
+.content{
+	display: flex;
+}
+.catalog_text{
+	background: #FF0000;
+	padding: 15px;
+	width: 15%;
+	font-size: 42px;
+	border-radius: 10px;
+}
+.sort{
+	display: flex;
+	flex-flow: column wrap;
+	background: #D9D9D9;
+	width: 15%;
+	color: black;
+	height: 220px;
+	padding: 15px;
+}
+.form{
+	margin-top: 15px;
+	font-size: 24px;
+}
+.checkbox{
+	transform: scale(1.5);
+
+}
+.assortment{
+	margin-left: 40px;
+	display: flex;
+	flex-flow: column wrap;
+}
+.img_assortiment{
+	width: 250px;
+	height: 282px;
+	box-shadow: 0px 5px 10px #000;
+
+}
+.product{
+	
+	padding: 5px;
+	color: white;
+	margin-bottom: 5px;
+}
+.product_main{
+	margin-left: 50px;
+}
+.product:hover{
+	background: grey;
+}
+.line{
+	display: flex;
+	margin-bottom: 20px;
+}
+.buy{
+	display: flex;
+	width: 270px;
+}
+.basket{
+	margin-left: auto;
+  	margin-right: 0;
+	padding: 10px 40px;
+	outline: none;
+	border:none;
+	border-radius: 25px;
+	background: rgba(255, 0, 0, 1);
+	cursor: pointer;
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: 2px;
+	box-shadow: 0px 5px 10px #000;
+	font-size: 20px;
+	font-family: 'Arial';
+}
+.basket:hover{
+	background: rgba(255, 0, 0, 0.5);
+}
